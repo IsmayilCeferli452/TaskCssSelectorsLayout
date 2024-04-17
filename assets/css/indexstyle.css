@@ -1,0 +1,146 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: darkslateblue;
+    border-radius: 5px;
+    border-top-style: groove;
+    box-shadow: 40px 8px rgb(4, 2, 62);
+}
+
+.navbar .top-left .logo {
+    display: flex;
+}
+
+.navbar .top-left .logo a {
+    width: 100px;
+    margin-left: 3px;
+    margin-top: 2px;
+    text-decoration: none;
+}
+
+.navbar .top-left .logo a img {
+    width: 100px;
+    margin-left: 3px;
+    margin-top: 2px;
+}
+
+.navbar .top-left .logo .logo-text {
+    font-size: large;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 2px;
+    margin-bottom: 2px;
+    margin-block-start: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 2);
+}
+
+.navbar .top-right ul {
+    list-style: none;
+    display: flex;
+    margin-right: 50px;
+}
+
+.navbar .top-right ul li {
+    list-style: none;
+}
+
+.navbar .top-right p {
+    font-size: large;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 0px;
+    text-indent: 30px;
+    margin: 0;
+    position: relative;
+    top: 25px;
+    bottom: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 2);
+}
+
+#info .heading h1 {
+    display: flex;
+    justify-content: center;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#info .text {
+    display: flex;
+    justify-content: center;
+}
+
+#links h1 {
+    display: flex;
+    justify-content: center;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#links .links-area {
+    display: flex;
+    justify-content: space-between;
+}
+
+#links .links-area .link.first {
+    background-color: darkslateblue;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 2);
+}
+
+#links .links-area .link.second {
+    background-color: darkslateblue;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 2);
+}
+
+#links .links-area .link.third {
+    background-color: darkslateblue;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 2);
+}
+
+#links .links-area .link.fourth {
+    background-color: darkslateblue;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 2);
+}
+
+#links .links-area a {
+    text-decoration: none;
+}
+
+#links .links-area .link.first a img {
+    width: 300px;
+}
+
+#links .links-area h4 {
+    margin-left: 100px;
+    color: aliceblue;
+}
+
+#links .links-area p {
+    background-color: rgb(141, 205, 207);
+    border-radius: 5px;
+    height: 200px;
+    width: 300px;
+    margin-left: 2px;
+    margin-right: 2px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 2);
+}
+
+#links .links-area .link.second a img {
+    width: 300px;
+    height: 188px;
+}
+
+#links .links-area .link.third a img {
+    width: 300px;
+    height: 188px;
+}
+
+#links .links-area .link.fourth a img {
+    width: 300px;
+    height: 188px;
+}
+
+#links .links-area p:hover {
+    background-color: aquamarine;
+}

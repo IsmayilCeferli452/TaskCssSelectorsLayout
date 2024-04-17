@@ -1,0 +1,184 @@
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    border-radius: 10px;
+    border-top-style: dashed;
+    /* box-shadow: 60px -16px teal; */
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+
+.navbar-response ul {
+    list-style: none;
+    display: flex;
+    margin-right: 50px;
+}
+
+.navbar-response ul li {
+    margin-left: 15px;
+    margin-top: 30px;
+}
+
+.navbar-response ul li a {
+    text-decoration: none;
+}
+
+.navbar-response ul li a :hover {
+    background-color: darkslateblue;
+    border-radius: 5px;
+}
+
+.navbar-response ul li span {
+    text-decoration: none;
+    font-size: x-large;
+    color: azure;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navbar .header-logo .logo img {
+    width: 110px;
+    margin-left: 20px;
+}
+
+.banner img {
+    width: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 500px;
+    margin-right: 200px;
+}
+
+.top {
+    background-color: black;
+    height: 100px;
+    border-radius: 10px;
+    border-top-style: dashed;
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px; */
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+
+.top :hover {
+    background-color: darkslateblue;
+}
+
+.top h2 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.top h4 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.bottom .bottom-top :hover {
+    background-color: darkslateblue;
+}
+
+.bottom .bottom-top h3 {
+    color: black;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.bottom .bottom-top h5 {
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.bottom .bottom-info {
+    display: flex;
+    justify-content: space-between
+}
+
+.bottom .bottom-info :hover {
+    background-color: darkslateblue;
+    transition: 0.3s;
+}
+
+.bottom .bottom-info .bottom-info.left {
+    width: 200px;
+}
+
+.bottom .bottom-info .bottom-info.left a {
+    border-left-style: groove;
+    border-radius: 10px;
+    background-color: black;
+    color: azure;
+    text-decoration: none;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+
+.bottom .bottom-info .bottom-info.left a p {
+    margin-left: 2px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.bottom .bottom-info .bottom-info.midleft {
+    width: 200px;
+}
+
+.bottom .bottom-info .bottom-info.midleft a {
+    border-left-style: groove;
+    border-radius: 10px;
+    background-color: black;
+    color: azure;
+    text-decoration: none;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+
+.bottom .bottom-info .bottom-info.midleft a p {
+    margin-left: 2px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.bottom .bottom-info .bottom-info.midright {
+    width: 200px;
+}
+
+.bottom .bottom-info .bottom-info.midright a {
+    border-left-style: groove;
+    border-radius: 10px;
+    background-color: black;
+    color: azure;
+    text-decoration: none;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+
+.bottom .bottom-info .bottom-info.midright a p {
+    margin-left: 2px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.bottom .bottom-info .bottom-info.right {
+    color: azure;
+    width: 200px;
+}
+
+.bottom .bottom-info .bottom-info.right a p {
+    margin-left: 2px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.bottom .bottom-info .bottom-info.right a {
+    border-left-style: groove;
+    border-radius: 10px;
+    background-color: black;
+    color: azure;
+    text-decoration: none;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
